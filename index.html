@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>p5.js 과제 1~4</title>
+  <style>
+    body { 
+      font-family: sans-serif; 
+      padding: 20px; 
+      background: #f5f5f5; 
+    }
+    h1 { s
+      text-align:center; 
+      margin-bottom: 30px; 
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .item {
+      background: white;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .item h2 { margin-top: 0; }
+    img, video {
+      width: 100%;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>p5.js 과제 1~4 (1,4 / 2,3 순)</h1>
+
+  <div class="grid">
+
+    <!-- 1행: 과제 1 .png, 과제 4 gif -->
+    <div class="item">
+      <h2>과제 1</h2>
+      <img src="과제 1 -pj5s.png" alt="과제 1">
+    </div>
+
+    <div class="item">
+      <h2>과제 4</h2>
+      <video src="과제 4 -pj5s.gif" controls></video>
+    </div>
+
+    <!-- 2행: 과제 2 (이미지), 과제 3 (영상) -->
+    <div class="item">
+      <h2>과제 2</h2>
+      <img src="과제 2 -pj5s.png" alt="과제 2">
+    </div>
+
+    <div class="item">
+      <h2>과제 3</h2>
+      <video src="과제 3 -pj5s.gif" controls></video>
+    </div>
+
+  </div>
+
+</body>
+</html>
